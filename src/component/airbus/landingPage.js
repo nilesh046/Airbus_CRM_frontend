@@ -1,5 +1,6 @@
 import Banner from "./banner";
 import CarouselWrapper from "./carousel";
+import ChartsComponent from "./chartsComponent";
 import NavBar from "./navBar";
 
 const LandingPage = function () {
@@ -9,6 +10,7 @@ const LandingPage = function () {
       <Banner />
       <br></br>
       <CarouselWrapper />
+      <ChartsComponent />
     </>
   )
 };

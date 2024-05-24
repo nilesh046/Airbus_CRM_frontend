@@ -1,13 +1,14 @@
 import Banner from "../banner";
-import CarouselWrapper from "../carousel";
 import NavBar from "../navBar";
+import AircraftDetails from "./aircraftDetails";
 
 const AircraftPage = function () {
   return(
     <>
       <NavBar />
       <Banner />
-      <CarouselWrapper />
+      <br></br>
+      <AircraftDetails />
     </>
   )
 };

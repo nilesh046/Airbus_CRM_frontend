@@ -13,3 +13,13 @@
   height: 40%;
   width: 100%;
 }
+
+.img3 {
+  height: 10%;
+  max-height: 400px;
+  width: 100%;
+}
+
+.pieChart {
+  max-height: 400px;
+}
