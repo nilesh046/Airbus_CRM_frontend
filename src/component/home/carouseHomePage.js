@@ -1,6 +1,6 @@
 import { Image } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
-import './css/default.css';
+import '../../css/default.css';
 
 const CarouselWrapperHomePage = function () {
   const src1 = "/carousel/airbus_img_1.webp";

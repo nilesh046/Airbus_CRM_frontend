@@ -7,7 +7,6 @@ const HomePage = function () {
     <div className="row">
       <BannerHomePage />
     </div>
-    <hr></hr>
     <br></br>
     <div className="row">
       <CarouselWrapperHomePage />
@@ -32,7 +31,7 @@ const HomePage = function () {
       <div className="row mt-5">
         <div className="col-5 mb-5 bg-light px-5 py-5 ms-5 me-5">
           <h3>
-            <a href="/mro//login">
+            <a href="/mro/login">
               MRO Login
             </a>
           </h3>

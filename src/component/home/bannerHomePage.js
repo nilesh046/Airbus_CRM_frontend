@@ -1,7 +1,7 @@
 import { Image } from "react-bootstrap";
 import '../../css/default.css';
 
-const Banner = function () {
+const BannerHomePage = function () {
   return (
     <>
       <div>
@@ -11,15 +11,14 @@ const Banner = function () {
           </div>
           <div className="col-8">
             <h1 className="mt-5 mb-4"> 
-                Welcome to the Airbus admin page
+                Welcome to the Airbus smart CRM 
             </h1>
-            <p>Navigate across all the partner airlines, manufuctured aircraft and related statistics that can help you drive future operations</p>
+            <p>Choose your persona and head forward towards the unified paltform that uses the state-of-the-art AI and ML tools to help you run a better league.</p>
           </div>
         </header>
       </div>
       <hr />
     </>
-
   );
 };
-export default Banner;
+export default BannerHomePage;

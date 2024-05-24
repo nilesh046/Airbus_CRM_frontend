@@ -20,10 +20,33 @@
   width: 100%;
 }
 
+.img4 {
+  max-width: 100px;
+  width: 100%;
+}
+
+.img5 {
+  max-width: 50%;
+  width: 100%;
+}
+
 .pieChart {
   max-height: 400px;
 }
 
 .th{
   font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 450px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
 }
