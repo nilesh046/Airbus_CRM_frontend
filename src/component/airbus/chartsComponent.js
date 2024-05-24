@@ -67,7 +67,7 @@ const ChartsComponent = function() {
     },
   };
   return (
-    <div className='mt-5 mb-5'>
+    <div className='mb-5'>
       <div className='row mb-5'>
         <div className='col-6'>
         <MDBContainer className='pieChart'>

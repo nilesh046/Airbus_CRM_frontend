@@ -1,6 +1,6 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
-import { server_url } from "../../../config";
+// import axios from "axios";
+import { useState } from "react";
+// import { server_url } from "../../../config";
 import AddAirline from "./addAirline";
 import TableAirline from "./tableAirline";
 
@@ -9,25 +9,25 @@ const airlinesDummyData = [
     "airlineId": "FLY1", 
     "airlineName": "Air India",
     "regionOperated": "APAC",
-    // "totalAircraftsOwned": 21
+    "totalAircraftsOwned": 21
   },
   {
     "airlineId": "FLY2", 
     "airlineName": "Air Canada",
     "regionOperated": "US",
-    // "totalAircraftsOwned": 24
+    "totalAircraftsOwned": 24
   },
   {
     "airlineId": "FLY3", 
     "airlineName": "Lufthansa",
     "regionOperated": "Europe",
-    // "totalAircraftsOwned": 42
+    "totalAircraftsOwned": 42
   },
   {
     "airlineId": "FLY4", 
     "airlineName": "Indigo",
     "regionOperated": "APAC",
-    // "totalAircraftsOwned": 32
+    "totalAircraftsOwned": 32
   }
 ]
 

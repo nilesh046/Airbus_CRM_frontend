@@ -1,10 +1,12 @@
 import { useState } from "react";
 
 const emptyAirline = {
+  "airlineId": "FLY5", 
   "airlineName": "",
   "regionOperated": "",
   "airlineAdminUsername": "parsec",
-  "airlineAdminPassword": "pass"
+  "airlineAdminPassword": "pass",
+  "totalAircraftsOwned" : "0"
 }
 
 const AddAirline = function({addAirlineWrapper}) {
@@ -16,7 +18,7 @@ const AddAirline = function({addAirlineWrapper}) {
 
   return (
     <>
-      <div className="container">
+      <div className="container mb-4">
         <br />
         <div className="row">
           <h4>Add a new airline</h4>

@@ -9,7 +9,6 @@ const LandingPage = function () {
       <NavBar />
       <Banner />
       <br></br>
-      <CarouselWrapper />
       <ChartsComponent />
     </>
   )

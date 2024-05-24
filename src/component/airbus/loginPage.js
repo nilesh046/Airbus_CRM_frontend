@@ -1,4 +1,5 @@
 import Banner from "./banner";
+import CarouselWrapper from "./carousel";
 import NavBarLoginLogoutPage from "./navBarLoginLogoutPage";
 
 const LoginPage = function () {
@@ -7,7 +8,7 @@ const LoginPage = function () {
       <NavBarLoginLogoutPage />
       <Banner />
       <br></br>
-      <div className="container mt-5 bg-light text-dark">
+      <div className="container bg-light text-dark pb-2">
         <h1> 
           <b> 
             Airbus Admin Login
@@ -15,6 +16,9 @@ const LoginPage = function () {
         </h1>
         <a href="/landingPage">Click here to login</a>
       </div>
+      <br></br>
+      <CarouselWrapper />
+      <br></br>
     </>
   )
 };

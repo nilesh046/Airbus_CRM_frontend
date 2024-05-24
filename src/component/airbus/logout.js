@@ -1,4 +1,5 @@
 import Banner from "./banner";
+import CarouselWrapper from "./carousel";
 import NavBarLoginLogoutPage from "./navBarLoginLogoutPage";
 
 const LogoutPage = function () {
@@ -7,7 +8,7 @@ const LogoutPage = function () {
       <NavBarLoginLogoutPage />
       <Banner />
       <br></br>
-      <div className="container mt-5 bg-light text-dark">
+      <div className="container bg-light text-dark pb-2">
         <h1> 
           <b> 
             Logout successful
@@ -15,6 +16,9 @@ const LogoutPage = function () {
         </h1>
         <a href="/login">Click here to login again</a>
       </div>
+      <br></br>
+      <CarouselWrapper />
+      <br></br>
     </>
   )
 };

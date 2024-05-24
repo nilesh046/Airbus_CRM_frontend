@@ -9,7 +9,7 @@ const TableAirline = function({airlines}) {
           <th className='th'>Airline Id</th>
           <th className='th'>Airline Name</th>
           <th className='th'>Region Operated</th>
-          {/* <th>Total Aircrafts Owned</th> */}
+          <th className='th'>Total Aircrafts Owned</th>
         </tr>
       </thead>
       <tbody>
@@ -19,7 +19,7 @@ const TableAirline = function({airlines}) {
               <td>{airline.airlineId}</td>
               <td>{airline.airlineName}</td>
               <td>{airline.regionOperated}</td>
-              {/* <td>{airline.totalAircraftsOwned}</td> */}
+              <td>{airline.totalAircraftsOwned}</td>
             </tr>
           ))
         }

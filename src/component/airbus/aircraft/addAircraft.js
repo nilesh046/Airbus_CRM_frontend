@@ -1,8 +1,11 @@
 import { useState } from "react";
 
 const emptyAicraft = {
+  "aircraftId": "AIR6",
   "aircraftModelId": "",
-  "ownerAirlineId": ""
+  "aircraftModelName": "A320",
+  "ownerAirlineId": "",
+  "ownerAirlineName": "Indigo"
 }
 
 const AddAircraft = function({addAircraftWrapper}) {
