@@ -1,12 +1,14 @@
+import '../../../css/default.css';
+
 const TableAirline = function({airlines}) {
   console.log(airlines)
   return (
     <table className='table table-striped table-bordered'>
       <thead>
         <tr>
-          <th>Airline Id</th>
-          <th>Airline Name</th>
-          <th>Region Operated</th>
+          <th className='th'>Airline Id</th>
+          <th className='th'>Airline Name</th>
+          <th className='th'>Region Operated</th>
           {/* <th>Total Aircrafts Owned</th> */}
         </tr>
       </thead>
