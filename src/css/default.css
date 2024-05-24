@@ -30,6 +30,11 @@
   width: 100%;
 }
 
+.img6 {
+  max-width: 50%;
+  width: 100%;
+}
+
 .pieChart {
   max-height: 400px;
 }

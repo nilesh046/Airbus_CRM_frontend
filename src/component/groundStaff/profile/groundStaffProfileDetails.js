@@ -1,7 +1,7 @@
 import { Image } from "react-bootstrap";
-import '../../css/default.css';
+import '../../../css/default.css';
 
-const ProfileDetails = function () {
+const GroundStaffProfileDetails = function () {
   return(
     <>
       <div className="row justify-content-center">
@@ -24,4 +24,5 @@ const ProfileDetails = function () {
     </>
   )
 };
-export default ProfileDetails;
+
+export default GroundStaffProfileDetails;

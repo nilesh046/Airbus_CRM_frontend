@@ -1,8 +1,8 @@
 import MroBanner from "../mroBanner";
 import MroNavBar from "../mroNavBar";
-import ProfileDetails from "../profileDetails";
+import ProfileDetails from "./mroProfileDetails";
 
-const MroProfilePage = function () {
+const GroundStaffProfilePage = function () {
   return(
     <>
       <MroNavBar />
@@ -11,4 +11,4 @@ const MroProfilePage = function () {
     </>
   )
 };
-export default MroProfilePage;
+export default GroundStaffProfilePage;

@@ -12,6 +12,11 @@ import MroLogoutPage from './component/mro/mroLogoutPage';
 import MroMaintenanceHistoryPage from './component/mro/history/mroMaintenanceHistoryPage';
 import MroCustomerAirlinePage from './component/mro/customer_airline/mroCustomerAirlinePage';
 import MroProfilePage from './component/mro/profile/mroProfilePage';
+import GroundStaffLoginPage from './component/groundStaff/groundStaffLoginPage';
+import GroundStaffLandingPage from './component/groundStaff/groundStaffLandingPage';
+import GroundStaffLogoutPage from './component/groundStaff/groundStaffLogoutPage';
+import GroundStaffProfilePage from './component/groundStaff/profile/groundStaffProfilePage';
+import GroundStaffRepairHistoryPage from './component/groundStaff/history/groundStaffRepairHistoryPage';
 
 function App() {
   return (
@@ -31,6 +36,12 @@ function App() {
         <Route path="/mro/history" element={<MroMaintenanceHistoryPage />} />
         <Route path="/mro/customer_airline" element={<MroCustomerAirlinePage />} />
         <Route path="/mro/profile" element={<MroProfilePage />} />
+
+        <Route path="/groundStaff/login" element={<GroundStaffLoginPage />} />
+        <Route path="/groundStaff/landingPage" element={<GroundStaffLandingPage />} />
+        <Route path="/groundStaff/logout" element={<GroundStaffLogoutPage />} />
+        <Route path="/groundStaff/history" element={<GroundStaffRepairHistoryPage />} />
+        <Route path="/groundStaff/profile" element={<GroundStaffProfilePage />} />
       </Routes>
     </BrowserRouter>
   );
