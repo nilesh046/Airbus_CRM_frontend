@@ -18,7 +18,7 @@ const HomePage = function () {
         </div>
         <div className="col-5 bg-light px-5 py-5 ms-5 me-5">
           <h3>
-            <a href="/airline/login">
+            <a href="http://localhost:5173/">
               Ariline Login
             </a>
           </h3>

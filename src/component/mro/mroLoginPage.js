@@ -1,3 +1,4 @@
+import MroCarouselWrapper from "../mro/mroCarousel";
 import MroBanner from "./mroBanner";
 import MroNavBarLoginLogoutPage from "./mroNavBarLoginLogoutPage";
 
@@ -6,8 +7,7 @@ const MroLoginPage = function () {
     <>
       <MroNavBarLoginLogoutPage />
       <MroBanner />
-      <br></br>
-      <div className="container mt-5 bg-light text-dark">
+      <div className="container bg-light text-dark">
         <h1> 
           <b> 
             MRO Login
@@ -15,6 +15,9 @@ const MroLoginPage = function () {
         </h1>
         <a href="/mro/landingPage">Click here to login</a>
       </div>
+      <br></br>
+      <MroCarouselWrapper />
+      <br></br>
     </>
   )
 };

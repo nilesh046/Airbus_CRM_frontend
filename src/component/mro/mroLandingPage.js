@@ -1,5 +1,4 @@
 import MroBanner from "./mroBanner";
-import MroCarouselWrapper from "./mroCarousel";
 import MroChartsComponent from "./mroChartsComponent";
 import MroNavBar from "./mroNavBar";
 
@@ -9,7 +8,6 @@ const MroLandingPage = function () {
       <MroNavBar />
       <MroBanner />
       <br></br>
-      <MroCarouselWrapper />
       <MroChartsComponent />
     </>
   )

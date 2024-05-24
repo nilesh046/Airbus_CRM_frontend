@@ -8,7 +8,6 @@ const MroCustomerAirlinePage = function () {
     <>
       <MroNavBar />
       <MroBanner />
-      <br></br>
       <MroCustomerAirlineChartsComponent />
       <br></br>
       <MroCustomerAirlineDetails />

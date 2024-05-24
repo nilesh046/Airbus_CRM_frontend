@@ -10,33 +10,23 @@ import '../../../css/default.css';
 Chart.register(ArcElement, Tooltip, Legend, ChartDataLabels);
 
 const MroMaintenanceHistoryChartsComponent = function() {
-  const dataSales = {
-    labels: ["Air India", "Air Canada", "Lufthansa", "Indigo", "Ryanair"],
+  const dataPartsReplaced = {
+    labels: ["Hose Pipe", "Gate gears", "Seat belts", "Lav gate", "Others"],
     datasets: [
       {
         label: "Sales data",
-        data: [4, 5, 2, 8, 4],
+        data: [40, 50, 20, 80, 40],
         backgroundColor: ["powderblue", "green", "yellow", "pink", "orange"],
       }
     ]
   };
-  const dataAircraft = {
-    labels: ["A320", "A380", "A350", "Dassault"],
+  const dataPartsRepaired = {
+    labels: ["Emphasis motors", "Seat benders", "Communication systems", "Others"],
     datasets: [
       {
         label: "Sales data",
-        data: [200, 52, 40, 20],
+        data: [200, 520, 400, 10],
         backgroundColor: ["orange", "green", "yellow", "pink"],
-      }
-    ]
-  };
-  const dataDamage = {
-    labels: ["Tail wing", "Engine carborators", "Landing gear", "Seat belts", "Communication systems"],
-    datasets: [
-      {
-        label: "Sales data",
-        data: [2, 5, 6, 7, 3],
-        backgroundColor: ["blue", "green", "yellow", "pink", "orange"],
       }
     ]
   };
@@ -71,14 +61,14 @@ const MroMaintenanceHistoryChartsComponent = function() {
       <div className='row mb-5'>
         <div className='col-6'>
         <MDBContainer className='pieChart'>
-            <h3>Maintenance requests analyis: by airline</h3>
-            <Pie data={dataSales} options={options} className='mt-2' />
+            <h3>Parts Repaired</h3>
+            <Pie data={dataPartsRepaired} options={options} className='mt-2' />
         </MDBContainer>
         </div>
         <div className='col-6'>
           <MDBContainer className='pieChart'>
-              <h3>Maintenance requests analyis: by aircraft</h3>
-              <Pie data={dataAircraft} options={options} className='mt-2' />
+              <h3>Parts Replaced</h3>
+              <Pie data={dataPartsReplaced} options={options} className='mt-2' />
           </MDBContainer>
         </div>
       </div>

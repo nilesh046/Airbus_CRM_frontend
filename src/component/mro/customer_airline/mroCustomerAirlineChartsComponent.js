@@ -14,29 +14,9 @@ const MroCustomerAirlineChartsComponent = function() {
     labels: ["Air India", "Air Canada", "Lufthansa", "Indigo", "Ryanair"],
     datasets: [
       {
-        label: "Sales data",
-        data: [4, 5, 2, 8, 4],
+        label: "Orders received",
+        data: [40, 50, 20, 80, 40],
         backgroundColor: ["powderblue", "green", "yellow", "pink", "orange"],
-      }
-    ]
-  };
-  const dataAircraft = {
-    labels: ["A320", "A380", "A350", "Dassault"],
-    datasets: [
-      {
-        label: "Sales data",
-        data: [200, 52, 40, 20],
-        backgroundColor: ["orange", "green", "yellow", "pink"],
-      }
-    ]
-  };
-  const dataDamage = {
-    labels: ["Tail wing", "Engine carborators", "Landing gear", "Seat belts", "Communication systems"],
-    datasets: [
-      {
-        label: "Sales data",
-        data: [2, 5, 6, 7, 3],
-        backgroundColor: ["blue", "green", "yellow", "pink", "orange"],
       }
     ]
   };
@@ -67,28 +47,12 @@ const MroCustomerAirlineChartsComponent = function() {
     },
   };
   return (
-    <div className='mb-5'>
-      {/* <div className='row mb-5'>
-        <div className='col-6'>
+    <div className='row justify-content-center'>
+      <div className='col-md-4'>
         <MDBContainer className='pieChart'>
-            <h3>Sales data</h3>
+            <h3>Orders received</h3>
             <Pie data={dataSales} options={options} className='mt-2' />
         </MDBContainer>
-        </div>
-        <div className='col-6'>
-          <MDBContainer className='pieChart'>
-              <h3>Airline v/s Aircrafts received</h3>
-              <Pie data={dataAircraft} options={options} className='mt-2' />
-          </MDBContainer>
-        </div>
-      </div> */}
-      <div className='row justify-content-center'>
-        <div className='col-md-6'>
-          <MDBContainer className='pieChart'>
-              <h3>Sales data</h3>
-              <Pie data={dataDamage} options={options} className='mt-2' />
-          </MDBContainer>
-        </div>
       </div>
     </div>
   );

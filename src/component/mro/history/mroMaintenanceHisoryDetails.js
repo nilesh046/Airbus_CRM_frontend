@@ -3,38 +3,59 @@ import MroTableMaintenanceHistory from "./mroTableMaintenanceHistory";
 const maintenanceHistoryDummyData = [
   {
     "aircraftId": "AIR1", 
-    "aircraftModelId": "M1",
     "aircraftModelName": "A320",
-    "ownerAirlineId": "FLY1",
-    "ownerAirlineName": "Air India"
+    "ownerAirlineName": "Air India",
+    "maintenanceId": "MAIN1",
+    "partsRepaired": "Tail wing, Hose Pipe HP-32",
+    "partsReplaced": "NA",
+    "costIncurredInDollars": "$1,00,000",
+    "durationInDays": "2+",
+    "status": "OPEN"
   },  
   {
     "aircraftId": "AIR2", 
-    "aircraftModelId": "M1",
     "aircraftModelName": "A320",
-    "ownerAirlineId": "FLY1",
-    "ownerAirlineName": "Air India"
+    "ownerAirlineName": "Air India",
+    "maintenanceId": "MAIN2",
+    "partsRepaired": "Tail wing, Hose Pipe HP-32",
+    "partsReplaced": "NA",
+    "costIncurredInDollars": "$1,20,000",
+    "durationInDays": "20",
+    "status": "CLOSED"
   },
   {
     "aircraftId": "AIR3", 
-    "aircraftModelId": "M1",
     "aircraftModelName": "A320",
-    "ownerAirlineId": "FLY2",
-    "ownerAirlineName": "Air Canada"
+    "ownerAirlineName": "Air Canada",
+    "maintenanceId": "MAIN3",
+    "partsRepaired": "Warm water pipe WP-312",
+    "partsReplaced": "Lav Door",
+    "costIncurredInDollars": "$50,000",
+    "durationInDays": "20+",
+    "status": "OPEN"
   },
   {
     "aircraftId": "AIR4", 
-    "aircraftModelId": "M2",
     "aircraftModelName": "A380",
-    "ownerAirlineId": "FLY4",
-    "ownerAirlineName": "Indigo"
+    "ownerAirlineName": "Indigo",
+    "maintenanceId": "MAIN5",
+    "partsRepaired": "Seat belts, Hose Pipe HP-32",
+    "partsReplaced": "Seat cushions",
+    "costIncurredInDollars": "$60,000",
+    "durationInDays": "20",
+    "status": "CLOSED"
   },
   {
     "aircraftId": "AIR5", 
     "aircraftModelId": "M2",
     "aircraftModelName": "A380",
-    "ownerAirlineId": "FLY3",
-    "ownerAirlineName": "Lufthansa"
+    "ownerAirlineName": "Lufthansa",
+    "maintenanceId": "MAIN5",
+    "partsRepaired": "Rear fender GS-23",
+    "partsReplaced": "NA",
+    "costIncurredInDollars": "$1,00,400",
+    "durationInDays": "24",
+    "status": "CLOSED"
   },
 ]
 

@@ -2,40 +2,30 @@ import MroTableCustomerAirline from "./mroTableCustomerAirline";
 
 const customerAirlinesDummyData = [
   {
-    "aircraftId": "AIR1", 
-    "aircraftModelId": "M1",
-    "aircraftModelName": "A320",
-    "ownerAirlineId": "FLY1",
-    "ownerAirlineName": "Air India"
+    "airlineId": "FLY1", 
+    "airlineName": "Air India",
+    "aircraftsReceived": "40"
   },  
   {
-    "aircraftId": "AIR2", 
-    "aircraftModelId": "M1",
-    "aircraftModelName": "A320",
-    "ownerAirlineId": "FLY1",
-    "ownerAirlineName": "Air India"
+    "airlineId": "FLY2", 
+    "airlineName": "Air Canada",
+    "aircraftsReceived": "50"
+  },  
+  {
+    "airlineId": "FLY4", 
+    "airlineName": "Indigo",
+    "aircraftsReceived": "80"
+  },  
+  {
+    "airlineId": "FLY3", 
+    "airlineName": "Lufthansa",
+    "aircraftsReceived": "20"
   },
   {
-    "aircraftId": "AIR3", 
-    "aircraftModelId": "M1",
-    "aircraftModelName": "A320",
-    "ownerAirlineId": "FLY2",
-    "ownerAirlineName": "Air Canada"
-  },
-  {
-    "aircraftId": "AIR4", 
-    "aircraftModelId": "M2",
-    "aircraftModelName": "A380",
-    "ownerAirlineId": "FLY4",
-    "ownerAirlineName": "Indigo"
-  },
-  {
-    "aircraftId": "AIR5", 
-    "aircraftModelId": "M2",
-    "aircraftModelName": "A380",
-    "ownerAirlineId": "FLY3",
-    "ownerAirlineName": "Lufthansa"
-  },
+    "airlineId": "FLY5", 
+    "airlineName": "Ryanair",
+    "aircraftsReceived": "40"
+  }
 ]
 
 const MroCustomerAirlineDetails = function() {

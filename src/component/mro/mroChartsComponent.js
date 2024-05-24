@@ -15,7 +15,7 @@ const MroChartsComponent = function() {
     datasets: [
       {
         label: "Sales data",
-        data: [4, 5, 2, 8, 4],
+        data: [40, 50, 20, 80, 40],
         backgroundColor: ["powderblue", "green", "yellow", "pink", "orange"],
       }
     ]
@@ -25,7 +25,7 @@ const MroChartsComponent = function() {
     datasets: [
       {
         label: "Sales data",
-        data: [200, 52, 40, 20],
+        data: [200, 520, 400, 10],
         backgroundColor: ["orange", "green", "yellow", "pink"],
       }
     ]
@@ -35,7 +35,7 @@ const MroChartsComponent = function() {
     datasets: [
       {
         label: "Sales data",
-        data: [2, 5, 6, 7, 3],
+        data: [250, 500, 600, 700, 300],
         backgroundColor: ["blue", "green", "yellow", "pink", "orange"],
       }
     ]
@@ -67,17 +67,17 @@ const MroChartsComponent = function() {
     },
   };
   return (
-    <div className='mt-5 mb-5'>
+    <div className='mb-5'>
       <div className='row mb-5'>
         <div className='col-6'>
         <MDBContainer className='pieChart'>
-            <h3>Sales data</h3>
+            <h3>Revenue (in $$K)</h3>
             <Pie data={dataSales} options={options} className='mt-2' />
         </MDBContainer>
         </div>
         <div className='col-6'>
           <MDBContainer className='pieChart'>
-              <h3>Aircrafts inventory</h3>
+              <h3>Aircrafts distribution</h3>
               <Pie data={dataAircraft} options={options} className='mt-2' />
           </MDBContainer>
         </div>
