@@ -14,6 +14,12 @@
   width: 100%;
 }
 
+.img3 {
+  height: 210px;
+  width: 50%;
+  max-width: 100px;
+}
+
 .img4 {
   max-width: 100px;
   width: 100%;

@@ -72,14 +72,6 @@ const MroMaintenanceHistoryChartsComponent = function() {
           </MDBContainer>
         </div>
       </div>
-      {/* <div className='row justify-content-center'>
-        <div className='col-md-6'>
-          <MDBContainer className='pieChart'>
-              <h3>Maintenance requests analysis</h3>
-              <Pie data={dataDamage} options={options} className='mt-2' />
-          </MDBContainer>
-        </div>
-      </div> */}
     </div>
   );
 }

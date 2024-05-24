@@ -9,7 +9,6 @@ const GroundStaffLandingPage = function () {
       <GroundStaffNavBar />
       <GroundStaffBanner />
       <br></br>
-      <GroundStaffCarouselWrapper />
       <GroundStaffChartsComponent />
     </>
   )
