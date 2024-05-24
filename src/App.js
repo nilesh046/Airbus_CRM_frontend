@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import LandingPage from './component/airbus/landingPage';
+import AirlinePage from './component/airbus/airline/airlinePage';
+import AircraftPage from './component/airbus/aircraft/aircraftPage';
+import LoginPage from './component/airbus/loginPage';
+import LogoutPage from './component/airbus/logout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/login' element={<LoginPage />} />
+        <Route path="/landingPage" element={<LandingPage />} />
+        <Route path="/airline" element={<AirlinePage />} />
+        <Route path="/aircraft" element={<AircraftPage />} />
+        <Route path="/logout" element={<LogoutPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
