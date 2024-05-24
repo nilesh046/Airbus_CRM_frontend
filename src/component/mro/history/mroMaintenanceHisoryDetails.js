@@ -59,7 +59,7 @@ const maintenanceHistoryDummyData = [
   },
 ]
 
-const MroMaintenanceHistoryDetails = function() {
+const MroMaintenanceHistoryDetails = function({setChoiceUtility}) {
   // const apiCallGetAirlines = function () {
   //   axios.get(
   //     server_url+"/airline/get_all_airline_details"
@@ -76,7 +76,7 @@ const MroMaintenanceHistoryDetails = function() {
 
   return (
     <>
-      <MroTableMaintenanceHistory maintenanceHistory={maintenanceHistoryDummyData} />
+      <MroTableMaintenanceHistory maintenanceHistory={maintenanceHistoryDummyData} setChoiceUtility={setChoiceUtility} />
     </>
   );
 };

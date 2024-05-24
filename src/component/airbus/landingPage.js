@@ -1,5 +1,4 @@
 import Banner from "./banner";
-import CarouselWrapper from "./carousel";
 import ChartsComponent from "./chartsComponent";
 import NavBar from "./navBar";
 
