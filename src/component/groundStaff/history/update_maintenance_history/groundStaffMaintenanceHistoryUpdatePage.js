@@ -1,6 +1,6 @@
 import { Button, Image } from "react-bootstrap";
 
-const MroMaintenanceHistoryUpdatePage = function ({resetChoiceUtility}) {
+const GroundStaffMaintenanceHistoryUpdatePage = function ({resetChoiceUtility}) {
   const src1 = "/repair_history/img_1.jpeg";
   const src2 = "/repair_history/img_2.jpeg";
   const src3 = "/repair_history/img_3.jpeg";
@@ -78,4 +78,4 @@ const MroMaintenanceHistoryUpdatePage = function ({resetChoiceUtility}) {
     </>
   )
 };
-export default MroMaintenanceHistoryUpdatePage;
+export default GroundStaffMaintenanceHistoryUpdatePage;
